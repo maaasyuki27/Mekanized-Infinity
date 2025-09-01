@@ -1,0 +1,12 @@
+StartupEvents.registry('block', event => {
+  event.create('flux_dust_block')
+    .soundType('stone')
+    .requiresTool(true)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_stone_tool')
+  event.create('steel_machine_hull')
+    .soundType('metal')
+    .requiresTool(true)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+})

@@ -8,7 +8,7 @@ event.shaped(
   ],
   {
     A: 'minecraft:crafting_table',
-    B: 'kubejs:flux_dust_block',
+    B: 'mek_inf:flux_dust_block',
     C: '#forge:ingots/osmium'
   }
 )

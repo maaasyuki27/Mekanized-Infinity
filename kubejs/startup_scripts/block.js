@@ -5,10 +5,20 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .tagBlock('minecraft:needs_stone_tool')
     .textureAll('kubejs:block/flux_dust_block')
-  event.create('mek_inf:steel_machine_hull')
-    .soundType('metal')
-    .requiresTool(true)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .tagBlock('minecraft:needs_iron_tool')
-    .textureAll('kubejs:block/steel_machine_hull')
+    let typesa = ["bronze","infused","reinforced","atomic","hypercharged","subatomic","singular","exoversal","creative"]
+    typesa.forEach(type => {
+      event.create(`mek_inf:${type}_casing`)
+      .soundType(`metal`)
+      .requiresTool(true)
+      .tagBlock(`minecraft:mineable/pickaxe`)
+      .textureAll(`kubejs:item/${type}_casing`)
+    })
+    let typesb = ["bronze","steel"]
+    typesb.forEach(type => {
+      event.create(`mek_inf:${type}_machine_hull`)
+      .soundType(`metal`)
+      .requiresTool(true)
+      .tagBlock(`minecraft:mineable/pickaxe`)
+      .textureAll(`kubejs:item/${type}_machine_hull`)
+    })
 })

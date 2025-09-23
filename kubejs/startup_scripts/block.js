@@ -5,6 +5,12 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .tagBlock('minecraft:needs_stone_tool')
     .textureAll('kubejs:block/flux_dust_block')
+  event.create('mek_inf:primitive_kiln_bricks')
+    .soundType('stone')
+    .requiresTool(true)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_stone_tool')
+    .textureAll('kubejs:block/primitive_kiln_bricks')
     let typesa = ["bronze","infused","reinforced","atomic","hypercharged","subatomic","singular","exoversal","creative"]
     typesa.forEach(type => {
       event.create(`mek_inf:${type}_casing`)

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ep1_ulv"
+	group: ""
+	icon: "mek_inf:simple_control_circuit"
+	id: "39E557C52BC5FF92"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "ep.1 ULV"
+}

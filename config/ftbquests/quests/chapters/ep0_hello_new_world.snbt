@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ep0_hello_new_world"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:stone_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "014BAAD997081954"
+	images: [
+		{
+			height: 1.5d
+			image: "minecraft:item/stone_axe"
+			rotation: 180.0d
+			width: 1.5d
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/crafting_table_front"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "mek_inf:mainlogo"
+			id: "78C3D05BAEF921BC"
+			rewards: [
+				{
+					count: 16
+					id: "5FEA072F8A49C6A4"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "3DCB1FADF7CE4372"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C34F935BC9085BE"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "63A5B6E6DBCF96EF"
+				title: "Hello"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78C3D05BAEF921BC"]
+			id: "1BF24747DDBAAC3B"
+			tasks: [{
+				id: "46778884FCA66781"
+				title: "world"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78C3D05BAEF921BC"]
+			id: "0269B5783FC6CBEA"
+			rewards: [{
+				id: "037327D26F174F8F"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "26D8567D46B25065"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0269B5783FC6CBEA"]
+			id: "5250BA714C0CC0E1"
+			tasks: [{
+				id: "2290B336EE7FABF1"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78C3D05BAEF921BC"]
+			description: [
+				"数個の特殊クラフトを実装していますが、システム上、一部のクラフトは自動クラフトに組み込めません"
+				"自動クラフトをするときは全ての特殊クラフトで代替の効率の良いものが設けられていますのでそちらを使ってください"
+			]
+			id: "7CC475755B29324A"
+			tasks: [{
+				id: "2AE6407D2B51C540"
+				title: "特殊クラフト"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+	]
+	title: "ep.0 Hello New World"
+}

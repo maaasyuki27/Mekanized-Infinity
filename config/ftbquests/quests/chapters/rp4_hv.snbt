@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rp4_hv"
+	group: ""
+	icon: "mekanism:elite_control_circuit"
+	id: "7F3A6B989D787CB1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "ep.4 HV"
+}

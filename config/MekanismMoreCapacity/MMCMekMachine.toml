@@ -1,0 +1,127 @@
+
+#Adjustment of the capacity of the machine's internal tank
+[AntiprotonicNucleosynthesizer]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+
+[ChemicalCrystallizer]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+
+[ChemicalDissolutionChamberInput]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	inputChemicalTankCapacity = 1000000
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	outputChemicalTankCapacity = 1000000
+
+[ChemicalInfuser]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	ChemicalTankCapacity = 1000000
+
+[ChemicalOxidizer]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+
+[ChemicalWasher]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+	#Fluid tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: > 1
+	fluidTankCapacity = 1000000
+
+["Compressing, injecting, purifying"]
+	#Chemical tank capacity (mB). Default: 21000, Vanilla: 210
+	#Range: 1 ~ 1024819115206086200
+	chemicalTankCapacity = 21000
+
+[ElectrolyticSeparator]
+	#Chemical tank capacity (mB). Default: 2400000, Vanilla: 2400
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 2400000
+	#Fluid tank capacity (mB). Default: 2400000, Vanilla: 24000
+	#Range: > 1
+	fluidTankCapacity = 2400000
+
+[IsotopicCentrifuge]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+
+[MetallurgicInfuser]
+	#Chemical tank capacity (mB). Default: 100000, Vanilla: 1000
+	#Range: 1 ~ 1024819115206086200
+	chemicalTankCapacity = 100000
+
+[NutritionalLiquifier]
+	#Fluid tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: > 1
+	fluidTankCapacity = 1000000
+
+[PressurizedReactionChamber]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+	#Fluid tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: > 1
+	fluidTankCapacity = 1000000
+
+[RotaryCondensentrator]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+	#Fluid tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: > 1
+	fluidTankCapacity = 1000000
+
+[SolarNeutronActivator]
+	#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: 1 ~ 9223372036854775807
+	chemicalTankCapacity = 1000000
+
+[sps]
+	#Amount of input gas (mB) that the sps can store. Multiply mekanism/general/sps/inputPerAntimatter by this number. Default: 200, Vanilla: 2
+	#Range: 1 ~ 1000000000
+	inputTankCapacity = 200
+
+[ElectricPump]
+	#Fluid tank capacity (mB). Default: 1000000, Vanilla: 10000
+	#Range: > 1
+	fluidTankCapacity = 1000000
+
+[factories]
+
+	[factories.InfusingFactory]
+		#Chemical tank capacity (mB). Default: 300000, Vanilla: 3000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalTankCapacity = 300000
+		#Chemical tank capacity (mB). Default: 500000, Vanilla: 5000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalTankCapacity = 500000
+		#Chemical tank capacity (mB). Default: 700000, Vanilla: 7000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalTankCapacity = 700000
+		#Chemical tank capacity (mB). Default: 900000, Vanilla: 9000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalTankCapacity = 900000
+
+	[factories."CompressingFactory, injectingFactory, purifyingFactory"]
+		#Chemical tank capacity (mB). Default: 63000, Vanilla: 630
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalTankCapacity = 63000
+		#Chemical tank capacity (mB). Default: 105000, Vanilla: 1050
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalTankCapacity = 105000
+		#Chemical tank capacity (mB). Default: 147000 , Vanilla: 1470
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalTankCapacity = 147000
+		#Chemical tank capacity (mB). Default: 189000 , Vanilla: 1890
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalTankCapacity = 189000
+

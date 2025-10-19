@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ep8_zpm"
+	group: ""
+	icon: "evolvedmekanism:dense_control_circuit"
+	id: "6BF8584E2AC65E92"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "ep.8 ZPM"
+}

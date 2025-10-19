@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ep2"
+	group: ""
+	icon: "mekanism:basic_control_circuit"
+	id: "317107261269CEB0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4DB431A2AB6C7D5A"
+			shape: "none"
+			size: 3.0d
+			subtitle: "それではMekanismへどうぞ"
+			tasks: [{
+				id: "5A3CE11189E27793"
+				title: "ep.1"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DB431A2AB6C7D5A"]
+			id: "3CE8170FD21EE24C"
+			tasks: [{
+				id: "134012DEFDA95D4E"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DB431A2AB6C7D5A"]
+			id: "0A52618FFEEF755F"
+			tasks: [{
+				id: "4119C996D3FE2790"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BABF2956DD04BC2"]
+			id: "29C3D634D099858F"
+			tasks: [{
+				id: "5B9984520F7FC3EB"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BABF2956DD04BC2"]
+			id: "49F6983FE8B29E5B"
+			tasks: [{
+				id: "7C3C2DFA6929B465"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3CE8170FD21EE24C"
+				"0A52618FFEEF755F"
+			]
+			id: "4BABF2956DD04BC2"
+			tasks: [{
+				id: "25D0D50CE3B50705"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BABF2956DD04BC2"]
+			id: "50D94D67BC2F992B"
+			tasks: [{
+				id: "467AB48D7E760E4C"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+	]
+	title: "ep.2 LV"
+}

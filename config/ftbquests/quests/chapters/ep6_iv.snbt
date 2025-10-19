@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ep6_iv"
+	group: ""
+	icon: "evolvedmekanism:overclocked_control_circuit"
+	id: "70CEA3EB9266B184"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "ep.6 IV"
+}

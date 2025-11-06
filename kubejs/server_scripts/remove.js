@@ -1,9 +1,8 @@
 ServerEvents.recipes(event => {
     [
-        'mekanismgenerators:solar_generator',
-        'mekanism:steel_casing',
-        'integrateddynamics:squeezer'
+        'minecraft:crafting_table'
     ].forEach((name) => {
         event.remove({output: name})
     })
+    event.remove({output: 'minecraft:chest', input: '#minecraft:planks'})
 })

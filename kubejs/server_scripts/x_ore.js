@@ -1,3 +1,2 @@
 ServerEvents.recipes(event => {
-    
 })

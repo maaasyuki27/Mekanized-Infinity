@@ -1,23 +1,23 @@
 StartupEvents.registry('block', event => {
-  event.create('mek_inf:flux_dust_block')
-    .soundType('stone')
-    .requiresTool(true)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .tagBlock('minecraft:needs_stone_tool')
-    .textureAll('kubejs:block/flux_dust_block')
   event.create('mek_inf:primitive_kiln_bricks')
     .soundType('stone')
     .requiresTool(true)
     .tagBlock('minecraft:mineable/pickaxe')
     .tagBlock('minecraft:needs_stone_tool')
     .textureAll('kubejs:block/primitive_kiln_bricks')
+  event.create('mek_inf:coke_oven_bricks')
+    .soundType('stone')
+    .requiresTool(true)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_stone_tool')
+    .textureAll('kubejs:block/coke_oven_bricks')
     let typesa = ["bronze","infused","reinforced","atomic","hypercharged","subatomic","singular","exoversal","creative"]
     typesa.forEach(type => {
       event.create(`mek_inf:${type}_casing`)
       .soundType(`metal`)
       .requiresTool(true)
       .tagBlock(`minecraft:mineable/pickaxe`)
-      .textureAll(`kubejs:item/${type}_casing`)
+      .textureAll(`kubejs:block/${type}_casing`)
     })
     let typesb = ["bronze","steel"]
     typesb.forEach(type => {
@@ -25,6 +25,6 @@ StartupEvents.registry('block', event => {
       .soundType(`metal`)
       .requiresTool(true)
       .tagBlock(`minecraft:mineable/pickaxe`)
-      .textureAll(`kubejs:item/${type}_machine_hull`)
+      .textureAll(`kubejs:block/${type}_machine_hull`)
     })
 })

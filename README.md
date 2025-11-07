@@ -1,7 +1,7 @@
 # Mekanized Infinity
-【EN】
+### 【EN】
 
-The Modpack That Pushes Mekanism to Its Limits
+## The Modpack That Pushes Mekanism to Its Limits
 
 Hello to all Mekanism fans around the world!
 For everyone else, good morning!
@@ -26,19 +26,19 @@ This Modpack includes the following content (still planned):
 
 ・Insanely Powerful Ore Refining
 
-...and various other elements
+...and various other elements.
 
 
 Thanks for providing the texture.
 
-【JA】
+### 【JA】
 
-Mekanismを限界突破させるModpack
+## Mekanismを限界突破させるModpack
 
-世界のMekanismファンの皆さん、こんにちは
-そうでない方は、おはようございます
+世界のMekanismファンの皆さん、こんにちは。
+そうでない方は、おはようございます。
 
-Mekanism...楽しいですよね
+Mekanism...楽しいですよね。
 そのMekansimもっと強化してもっと楽しみたくないですか？
 じゃあ全国922京のMekanismファンが待ち望んでいた(当社調べ)このModpackをやりましょう！
 
@@ -58,7 +58,7 @@ Mekanism...楽しいですよね
 
 ・クッソ強い鉱石精製
 
-......その他様々な要素
+......その他様々な要素。
 
 
-テクスチャの提供に感謝します
+テクスチャの提供に感謝します。

@@ -14,4 +14,4 @@ EntityEvents.hurt(event => {
             event.cancel();
         }
     }
-})
+});
